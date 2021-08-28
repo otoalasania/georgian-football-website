@@ -180,7 +180,7 @@ body {
   -webkit-transition: 0.5s;
   transition: 0.5s;
   opacity: 0;
-  z-index: 9999;
+  z-index: 100;
 }
 
 .scrollTop.active {
@@ -191,7 +191,7 @@ body {
 
 .loader {
   position: fixed;
-  z-index: 200;
+  z-index: 101;
   top: 0;
   left: 0;
   width: 100%;
@@ -1346,7 +1346,7 @@ nav input[type="checkbox"] {
     -webkit-transition: all 0.3s ease;
     transition: all 0.3s ease;
     height: 100vh;
-    z-index: 200;
+    z-index: 99;
   }
   nav ul li {
     display: -webkit-box;
