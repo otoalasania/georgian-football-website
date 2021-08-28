@@ -69,7 +69,7 @@ body {
 // PRELOADER START ////
 .loader {
     position: fixed;
-    z-index: 101;
+    z-index: 105;
     top: 0;
     left: 0;
     width: 100%;
@@ -995,7 +995,7 @@ nav{
             display: block;
             transition: all 0.3s ease ;
             height: 100vh;
-            z-index: 99;
+            z-index: 102;
             li{
                 display: flex;
                 align-items: center;
