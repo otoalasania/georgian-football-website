@@ -27,7 +27,7 @@
   position: absolute;
   top: 0.3em;
   left: 0.5em;
-  z-index: 99;
+  z-index: 9;
   -webkit-transition: 0.3s ease;
   transition: 0.3s ease;
   cursor: pointer;
@@ -86,7 +86,7 @@
   height: 7em;
   position: absolute;
   bottom: 0;
-  z-index: 100;
+  z-index: 10;
   text-align: center;
   color: #eeeeee;
   padding: 0.1em 0;
@@ -191,7 +191,7 @@ body {
 
 .loader {
   position: fixed;
-  z-index: 101;
+  z-index: 105;
   top: 0;
   left: 0;
   width: 100%;
@@ -1346,7 +1346,7 @@ nav input[type="checkbox"] {
     -webkit-transition: all 0.3s ease;
     transition: all 0.3s ease;
     height: 100vh;
-    z-index: 99;
+    z-index: 102;
   }
   nav ul li {
     display: -webkit-box;
