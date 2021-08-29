@@ -79,29 +79,31 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    animation: circleScale 1s infinite;
 }
 
 .loader.hidden {
     animation: fadeOut 1s;
     animation-fill-mode: forwards;
+
 }
 
 .loader img {
     width: 10em;
 }
 
-@-webkit-keyframes fadeOut {
-    100% {
-        opacity: 0;
-        visibility: hidden;
-    }
-}
 
 @keyframes fadeOut {
     100% {
         opacity: 0;
         visibility: hidden;
     }
+}
+
+@keyframes circleScale {
+	0% {transform: scale(1)  }
+	50% { transform: scale(1.1) }
+    100% { transform: scale(1) }
 }
 // PRELOADER END ////
 
