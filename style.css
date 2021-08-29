@@ -1,123 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;800&display=swap");
-.dad .goalkeepers .card1, .dad .goalkeepers .card2, .dad .goalkeepers .card3, .dad .defenders .card4, .dad .defenders .card5, .dad .defenders .card6, .dad .defenders .card7, .dad .defenders .card8, .dad .defenders .card9, .dad .defenders .card10, .dad .defenders .card11, .dad .midfielders .card12, .dad .midfielders .card13, .dad .midfielders .card14, .dad .midfielders .card15, .dad .midfielders .card16, .dad .midfielders .card17, .dad .midfielders .card18, .dad .midfielders .card19, .dad .midfielders .card20, .dad .attackers .card21, .dad .attackers .card22, .dad .attackers .card23, .dad .attackers .card24, .dad .attackers .card25, .dad .attackers .card26, .dad .attackers .card27, .dad .attackers .card28 {
-  width: 15em;
-  height: 26em;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  position: relative;
-  border-radius: 2px;
-  overflow: hidden;
-  background-image: url(./images/wer.jpg);
-  background-size: cover;
-}
-
-.dad .goalkeepers .card1:hover, .dad .goalkeepers .card2:hover, .dad .goalkeepers .card3:hover, .dad .defenders .card4:hover, .dad .defenders .card5:hover, .dad .defenders .card6:hover, .dad .defenders .card7:hover, .dad .defenders .card8:hover, .dad .defenders .card9:hover, .dad .defenders .card10:hover, .dad .defenders .card11:hover, .dad .midfielders .card12:hover, .dad .midfielders .card13:hover, .dad .midfielders .card14:hover, .dad .midfielders .card15:hover, .dad .midfielders .card16:hover, .dad .midfielders .card17:hover, .dad .midfielders .card18:hover, .dad .midfielders .card19:hover, .dad .midfielders .card20:hover, .dad .attackers .card21:hover, .dad .attackers .card22:hover, .dad .attackers .card23:hover, .dad .attackers .card24:hover, .dad .attackers .card25:hover, .dad .attackers .card26:hover, .dad .attackers .card27:hover, .dad .attackers .card28:hover {
-  -webkit-box-shadow: rgba(122, 122, 122, 0.12) 0px 2px 4px 0px, rgba(82, 82, 82, 0.32) 0px 2px 16px 0px;
-          box-shadow: rgba(122, 122, 122, 0.12) 0px 2px 4px 0px, rgba(82, 82, 82, 0.32) 0px 2px 16px 0px;
-}
-
-.dad .goalkeepers .card1 #mainIMG, .dad .goalkeepers .card2 #mainIMG, .dad .goalkeepers .card3 #mainIMG, .dad .defenders .card4 #mainIMG, .dad .defenders .card5 #mainIMG, .dad .defenders .card6 #mainIMG, .dad .defenders .card7 #mainIMG, .dad .defenders .card8 #mainIMG, .dad .defenders .card9 #mainIMG, .dad .defenders .card10 #mainIMG, .dad .defenders .card11 #mainIMG, .dad .midfielders .card12 #mainIMG, .dad .midfielders .card13 #mainIMG, .dad .midfielders .card14 #mainIMG, .dad .midfielders .card15 #mainIMG, .dad .midfielders .card16 #mainIMG, .dad .midfielders .card17 #mainIMG, .dad .midfielders .card18 #mainIMG, .dad .midfielders .card19 #mainIMG, .dad .midfielders .card20 #mainIMG, .dad .attackers .card21 #mainIMG, .dad .attackers .card22 #mainIMG, .dad .attackers .card23 #mainIMG, .dad .attackers .card24 #mainIMG, .dad .attackers .card25 #mainIMG, .dad .attackers .card26 #mainIMG, .dad .attackers .card27 #mainIMG, .dad .attackers .card28 #mainIMG {
-  width: 100%;
-  position: absolute;
-  top: 0.3em;
-  left: 0.5em;
-  z-index: 9;
-  -webkit-transition: 0.3s ease;
-  transition: 0.3s ease;
-  cursor: pointer;
-}
-
-.dad .goalkeepers .card1 #mainIMG:hover, .dad .goalkeepers .card2 #mainIMG:hover, .dad .goalkeepers .card3 #mainIMG:hover, .dad .defenders .card4 #mainIMG:hover, .dad .defenders .card5 #mainIMG:hover, .dad .defenders .card6 #mainIMG:hover, .dad .defenders .card7 #mainIMG:hover, .dad .defenders .card8 #mainIMG:hover, .dad .defenders .card9 #mainIMG:hover, .dad .defenders .card10 #mainIMG:hover, .dad .defenders .card11 #mainIMG:hover, .dad .midfielders .card12 #mainIMG:hover, .dad .midfielders .card13 #mainIMG:hover, .dad .midfielders .card14 #mainIMG:hover, .dad .midfielders .card15 #mainIMG:hover, .dad .midfielders .card16 #mainIMG:hover, .dad .midfielders .card17 #mainIMG:hover, .dad .midfielders .card18 #mainIMG:hover, .dad .midfielders .card19 #mainIMG:hover, .dad .midfielders .card20 #mainIMG:hover, .dad .attackers .card21 #mainIMG:hover, .dad .attackers .card22 #mainIMG:hover, .dad .attackers .card23 #mainIMG:hover, .dad .attackers .card24 #mainIMG:hover, .dad .attackers .card25 #mainIMG:hover, .dad .attackers .card26 #mainIMG:hover, .dad .attackers .card27 #mainIMG:hover, .dad .attackers .card28 #mainIMG:hover {
-  -webkit-transform: scale(1.03);
-          transform: scale(1.03);
-  opacity: 0.8;
-}
-
-.dad .goalkeepers .card1 .number, .dad .goalkeepers .card2 .number, .dad .goalkeepers .card3 .number, .dad .defenders .card4 .number, .dad .defenders .card5 .number, .dad .defenders .card6 .number, .dad .defenders .card7 .number, .dad .defenders .card8 .number, .dad .defenders .card9 .number, .dad .defenders .card10 .number, .dad .defenders .card11 .number, .dad .midfielders .card12 .number, .dad .midfielders .card13 .number, .dad .midfielders .card14 .number, .dad .midfielders .card15 .number, .dad .midfielders .card16 .number, .dad .midfielders .card17 .number, .dad .midfielders .card18 .number, .dad .midfielders .card19 .number, .dad .midfielders .card20 .number, .dad .attackers .card21 .number, .dad .attackers .card22 .number, .dad .attackers .card23 .number, .dad .attackers .card24 .number, .dad .attackers .card25 .number, .dad .attackers .card26 .number, .dad .attackers .card27 .number, .dad .attackers .card28 .number {
-  width: 100%;
-  height: 4em;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  padding: 0.5em 0.5em;
-}
-
-.dad .goalkeepers .card1 .number img, .dad .goalkeepers .card2 .number img, .dad .goalkeepers .card3 .number img, .dad .defenders .card4 .number img, .dad .defenders .card5 .number img, .dad .defenders .card6 .number img, .dad .defenders .card7 .number img, .dad .defenders .card8 .number img, .dad .defenders .card9 .number img, .dad .defenders .card10 .number img, .dad .defenders .card11 .number img, .dad .midfielders .card12 .number img, .dad .midfielders .card13 .number img, .dad .midfielders .card14 .number img, .dad .midfielders .card15 .number img, .dad .midfielders .card16 .number img, .dad .midfielders .card17 .number img, .dad .midfielders .card18 .number img, .dad .midfielders .card19 .number img, .dad .midfielders .card20 .number img, .dad .attackers .card21 .number img, .dad .attackers .card22 .number img, .dad .attackers .card23 .number img, .dad .attackers .card24 .number img, .dad .attackers .card25 .number img, .dad .attackers .card26 .number img, .dad .attackers .card27 .number img, .dad .attackers .card28 .number img {
-  width: 3.2em;
-  margin-top: 1.6em;
-}
-
-.dad .goalkeepers .card1 .number .num, .dad .goalkeepers .card2 .number .num, .dad .goalkeepers .card3 .number .num, .dad .defenders .card4 .number .num, .dad .defenders .card5 .number .num, .dad .defenders .card6 .number .num, .dad .defenders .card7 .number .num, .dad .defenders .card8 .number .num, .dad .defenders .card9 .number .num, .dad .defenders .card10 .number .num, .dad .defenders .card11 .number .num, .dad .midfielders .card12 .number .num, .dad .midfielders .card13 .number .num, .dad .midfielders .card14 .number .num, .dad .midfielders .card15 .number .num, .dad .midfielders .card16 .number .num, .dad .midfielders .card17 .number .num, .dad .midfielders .card18 .number .num, .dad .midfielders .card19 .number .num, .dad .midfielders .card20 .number .num, .dad .attackers .card21 .number .num, .dad .attackers .card22 .number .num, .dad .attackers .card23 .number .num, .dad .attackers .card24 .number .num, .dad .attackers .card25 .number .num, .dad .attackers .card26 .number .num, .dad .attackers .card27 .number .num, .dad .attackers .card28 .number .num {
-  width: 5.5em;
-  height: 4.5em;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin-top: 1.2em;
-  margin-left: -0.5em;
-}
-
-.dad .goalkeepers .card1 .number .num h1, .dad .goalkeepers .card2 .number .num h1, .dad .goalkeepers .card3 .number .num h1, .dad .defenders .card4 .number .num h1, .dad .defenders .card5 .number .num h1, .dad .defenders .card6 .number .num h1, .dad .defenders .card7 .number .num h1, .dad .defenders .card8 .number .num h1, .dad .defenders .card9 .number .num h1, .dad .defenders .card10 .number .num h1, .dad .defenders .card11 .number .num h1, .dad .midfielders .card12 .number .num h1, .dad .midfielders .card13 .number .num h1, .dad .midfielders .card14 .number .num h1, .dad .midfielders .card15 .number .num h1, .dad .midfielders .card16 .number .num h1, .dad .midfielders .card17 .number .num h1, .dad .midfielders .card18 .number .num h1, .dad .midfielders .card19 .number .num h1, .dad .midfielders .card20 .number .num h1, .dad .attackers .card21 .number .num h1, .dad .attackers .card22 .number .num h1, .dad .attackers .card23 .number .num h1, .dad .attackers .card24 .number .num h1, .dad .attackers .card25 .number .num h1, .dad .attackers .card26 .number .num h1, .dad .attackers .card27 .number .num h1, .dad .attackers .card28 .number .num h1 {
-  font-size: 4rem;
-  color: #eeeeee;
-}
-
-.dad .goalkeepers .card1 .info, .dad .goalkeepers .card2 .info, .dad .goalkeepers .card3 .info, .dad .defenders .card4 .info, .dad .defenders .card5 .info, .dad .defenders .card6 .info, .dad .defenders .card7 .info, .dad .defenders .card8 .info, .dad .defenders .card9 .info, .dad .defenders .card10 .info, .dad .defenders .card11 .info, .dad .midfielders .card12 .info, .dad .midfielders .card13 .info, .dad .midfielders .card14 .info, .dad .midfielders .card15 .info, .dad .midfielders .card16 .info, .dad .midfielders .card17 .info, .dad .midfielders .card18 .info, .dad .midfielders .card19 .info, .dad .midfielders .card20 .info, .dad .attackers .card21 .info, .dad .attackers .card22 .info, .dad .attackers .card23 .info, .dad .attackers .card24 .info, .dad .attackers .card25 .info, .dad .attackers .card26 .info, .dad .attackers .card27 .info, .dad .attackers .card28 .info {
-  background: #2c2c2c;
-  width: 100%;
-  height: 7em;
-  position: absolute;
-  bottom: 0;
-  z-index: 10;
-  text-align: center;
-  color: #eeeeee;
-  padding: 0.1em 0;
-}
-
-.dad .goalkeepers .card1 .info h2, .dad .goalkeepers .card2 .info h2, .dad .goalkeepers .card3 .info h2, .dad .defenders .card4 .info h2, .dad .defenders .card5 .info h2, .dad .defenders .card6 .info h2, .dad .defenders .card7 .info h2, .dad .defenders .card8 .info h2, .dad .defenders .card9 .info h2, .dad .defenders .card10 .info h2, .dad .defenders .card11 .info h2, .dad .midfielders .card12 .info h2, .dad .midfielders .card13 .info h2, .dad .midfielders .card14 .info h2, .dad .midfielders .card15 .info h2, .dad .midfielders .card16 .info h2, .dad .midfielders .card17 .info h2, .dad .midfielders .card18 .info h2, .dad .midfielders .card19 .info h2, .dad .midfielders .card20 .info h2, .dad .attackers .card21 .info h2, .dad .attackers .card22 .info h2, .dad .attackers .card23 .info h2, .dad .attackers .card24 .info h2, .dad .attackers .card25 .info h2, .dad .attackers .card26 .info h2, .dad .attackers .card27 .info h2, .dad .attackers .card28 .info h2 {
-  font-weight: 300;
-  font-size: 1.1rem;
-}
-
-.dad .goalkeepers .card1 .info h3, .dad .goalkeepers .card2 .info h3, .dad .goalkeepers .card3 .info h3, .dad .defenders .card4 .info h3, .dad .defenders .card5 .info h3, .dad .defenders .card6 .info h3, .dad .defenders .card7 .info h3, .dad .defenders .card8 .info h3, .dad .defenders .card9 .info h3, .dad .defenders .card10 .info h3, .dad .defenders .card11 .info h3, .dad .midfielders .card12 .info h3, .dad .midfielders .card13 .info h3, .dad .midfielders .card14 .info h3, .dad .midfielders .card15 .info h3, .dad .midfielders .card16 .info h3, .dad .midfielders .card17 .info h3, .dad .midfielders .card18 .info h3, .dad .midfielders .card19 .info h3, .dad .midfielders .card20 .info h3, .dad .attackers .card21 .info h3, .dad .attackers .card22 .info h3, .dad .attackers .card23 .info h3, .dad .attackers .card24 .info h3, .dad .attackers .card25 .info h3, .dad .attackers .card26 .info h3, .dad .attackers .card27 .info h3, .dad .attackers .card28 .info h3 {
-  font-weight: 500;
-  font-size: 1.3rem;
-}
-
-.dad .goalkeepers .card1 .info a button, .dad .goalkeepers .card2 .info a button, .dad .goalkeepers .card3 .info a button, .dad .defenders .card4 .info a button, .dad .defenders .card5 .info a button, .dad .defenders .card6 .info a button, .dad .defenders .card7 .info a button, .dad .defenders .card8 .info a button, .dad .defenders .card9 .info a button, .dad .defenders .card10 .info a button, .dad .defenders .card11 .info a button, .dad .midfielders .card12 .info a button, .dad .midfielders .card13 .info a button, .dad .midfielders .card14 .info a button, .dad .midfielders .card15 .info a button, .dad .midfielders .card16 .info a button, .dad .midfielders .card17 .info a button, .dad .midfielders .card18 .info a button, .dad .midfielders .card19 .info a button, .dad .midfielders .card20 .info a button, .dad .attackers .card21 .info a button, .dad .attackers .card22 .info a button, .dad .attackers .card23 .info a button, .dad .attackers .card24 .info a button, .dad .attackers .card25 .info a button, .dad .attackers .card26 .info a button, .dad .attackers .card27 .info a button, .dad .attackers .card28 .info a button {
-  background: rgba(128, 128, 128, 0.363);
-  border: none;
-  font-size: 1.4rem;
-  padding: 0.1em 1.5em;
-  margin-top: 0.2em;
-  cursor: pointer;
-  -webkit-transition: 0.2s ease;
-  transition: 0.2s ease;
-  color: #eeeeee;
-}
-
-.dad .goalkeepers .card1 .info a button:hover, .dad .goalkeepers .card2 .info a button:hover, .dad .goalkeepers .card3 .info a button:hover, .dad .defenders .card4 .info a button:hover, .dad .defenders .card5 .info a button:hover, .dad .defenders .card6 .info a button:hover, .dad .defenders .card7 .info a button:hover, .dad .defenders .card8 .info a button:hover, .dad .defenders .card9 .info a button:hover, .dad .defenders .card10 .info a button:hover, .dad .defenders .card11 .info a button:hover, .dad .midfielders .card12 .info a button:hover, .dad .midfielders .card13 .info a button:hover, .dad .midfielders .card14 .info a button:hover, .dad .midfielders .card15 .info a button:hover, .dad .midfielders .card16 .info a button:hover, .dad .midfielders .card17 .info a button:hover, .dad .midfielders .card18 .info a button:hover, .dad .midfielders .card19 .info a button:hover, .dad .midfielders .card20 .info a button:hover, .dad .attackers .card21 .info a button:hover, .dad .attackers .card22 .info a button:hover, .dad .attackers .card23 .info a button:hover, .dad .attackers .card24 .info a button:hover, .dad .attackers .card25 .info a button:hover, .dad .attackers .card26 .info a button:hover, .dad .attackers .card27 .info a button:hover, .dad .attackers .card28 .info a button:hover {
-  background: #5a5a5a;
-}
-
 * {
   margin: 0;
   padding: 0;
@@ -1670,5 +1552,123 @@ nav input[type="checkbox"] {
   nav ul li {
     margin: 1em 0.5em;
   }
+}
+
+.dad .goalkeepers .card1, .dad .goalkeepers .card2, .dad .goalkeepers .card3, .dad .defenders .card4, .dad .defenders .card5, .dad .defenders .card6, .dad .defenders .card7, .dad .defenders .card8, .dad .defenders .card9, .dad .defenders .card10, .dad .defenders .card11, .dad .midfielders .card12, .dad .midfielders .card13, .dad .midfielders .card14, .dad .midfielders .card15, .dad .midfielders .card16, .dad .midfielders .card17, .dad .midfielders .card18, .dad .midfielders .card19, .dad .midfielders .card20, .dad .attackers .card21, .dad .attackers .card22, .dad .attackers .card23, .dad .attackers .card24, .dad .attackers .card25, .dad .attackers .card26, .dad .attackers .card27, .dad .attackers .card28 {
+  width: 15em;
+  height: 26em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+  border-radius: 2px;
+  overflow: hidden;
+  background-image: url(./images/wer.jpg);
+  background-size: cover;
+}
+
+.dad .goalkeepers .card1:hover, .dad .goalkeepers .card2:hover, .dad .goalkeepers .card3:hover, .dad .defenders .card4:hover, .dad .defenders .card5:hover, .dad .defenders .card6:hover, .dad .defenders .card7:hover, .dad .defenders .card8:hover, .dad .defenders .card9:hover, .dad .defenders .card10:hover, .dad .defenders .card11:hover, .dad .midfielders .card12:hover, .dad .midfielders .card13:hover, .dad .midfielders .card14:hover, .dad .midfielders .card15:hover, .dad .midfielders .card16:hover, .dad .midfielders .card17:hover, .dad .midfielders .card18:hover, .dad .midfielders .card19:hover, .dad .midfielders .card20:hover, .dad .attackers .card21:hover, .dad .attackers .card22:hover, .dad .attackers .card23:hover, .dad .attackers .card24:hover, .dad .attackers .card25:hover, .dad .attackers .card26:hover, .dad .attackers .card27:hover, .dad .attackers .card28:hover {
+  -webkit-box-shadow: rgba(122, 122, 122, 0.12) 0px 2px 4px 0px, rgba(82, 82, 82, 0.32) 0px 2px 16px 0px;
+          box-shadow: rgba(122, 122, 122, 0.12) 0px 2px 4px 0px, rgba(82, 82, 82, 0.32) 0px 2px 16px 0px;
+}
+
+.dad .goalkeepers .card1 #mainIMG, .dad .goalkeepers .card2 #mainIMG, .dad .goalkeepers .card3 #mainIMG, .dad .defenders .card4 #mainIMG, .dad .defenders .card5 #mainIMG, .dad .defenders .card6 #mainIMG, .dad .defenders .card7 #mainIMG, .dad .defenders .card8 #mainIMG, .dad .defenders .card9 #mainIMG, .dad .defenders .card10 #mainIMG, .dad .defenders .card11 #mainIMG, .dad .midfielders .card12 #mainIMG, .dad .midfielders .card13 #mainIMG, .dad .midfielders .card14 #mainIMG, .dad .midfielders .card15 #mainIMG, .dad .midfielders .card16 #mainIMG, .dad .midfielders .card17 #mainIMG, .dad .midfielders .card18 #mainIMG, .dad .midfielders .card19 #mainIMG, .dad .midfielders .card20 #mainIMG, .dad .attackers .card21 #mainIMG, .dad .attackers .card22 #mainIMG, .dad .attackers .card23 #mainIMG, .dad .attackers .card24 #mainIMG, .dad .attackers .card25 #mainIMG, .dad .attackers .card26 #mainIMG, .dad .attackers .card27 #mainIMG, .dad .attackers .card28 #mainIMG {
+  width: 100%;
+  position: absolute;
+  top: 0.3em;
+  left: 0.5em;
+  z-index: 9;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+.dad .goalkeepers .card1 #mainIMG:hover, .dad .goalkeepers .card2 #mainIMG:hover, .dad .goalkeepers .card3 #mainIMG:hover, .dad .defenders .card4 #mainIMG:hover, .dad .defenders .card5 #mainIMG:hover, .dad .defenders .card6 #mainIMG:hover, .dad .defenders .card7 #mainIMG:hover, .dad .defenders .card8 #mainIMG:hover, .dad .defenders .card9 #mainIMG:hover, .dad .defenders .card10 #mainIMG:hover, .dad .defenders .card11 #mainIMG:hover, .dad .midfielders .card12 #mainIMG:hover, .dad .midfielders .card13 #mainIMG:hover, .dad .midfielders .card14 #mainIMG:hover, .dad .midfielders .card15 #mainIMG:hover, .dad .midfielders .card16 #mainIMG:hover, .dad .midfielders .card17 #mainIMG:hover, .dad .midfielders .card18 #mainIMG:hover, .dad .midfielders .card19 #mainIMG:hover, .dad .midfielders .card20 #mainIMG:hover, .dad .attackers .card21 #mainIMG:hover, .dad .attackers .card22 #mainIMG:hover, .dad .attackers .card23 #mainIMG:hover, .dad .attackers .card24 #mainIMG:hover, .dad .attackers .card25 #mainIMG:hover, .dad .attackers .card26 #mainIMG:hover, .dad .attackers .card27 #mainIMG:hover, .dad .attackers .card28 #mainIMG:hover {
+  -webkit-transform: scale(1.03);
+          transform: scale(1.03);
+  opacity: 0.8;
+}
+
+.dad .goalkeepers .card1 .number, .dad .goalkeepers .card2 .number, .dad .goalkeepers .card3 .number, .dad .defenders .card4 .number, .dad .defenders .card5 .number, .dad .defenders .card6 .number, .dad .defenders .card7 .number, .dad .defenders .card8 .number, .dad .defenders .card9 .number, .dad .defenders .card10 .number, .dad .defenders .card11 .number, .dad .midfielders .card12 .number, .dad .midfielders .card13 .number, .dad .midfielders .card14 .number, .dad .midfielders .card15 .number, .dad .midfielders .card16 .number, .dad .midfielders .card17 .number, .dad .midfielders .card18 .number, .dad .midfielders .card19 .number, .dad .midfielders .card20 .number, .dad .attackers .card21 .number, .dad .attackers .card22 .number, .dad .attackers .card23 .number, .dad .attackers .card24 .number, .dad .attackers .card25 .number, .dad .attackers .card26 .number, .dad .attackers .card27 .number, .dad .attackers .card28 .number {
+  width: 100%;
+  height: 4em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0.5em 0.5em;
+}
+
+.dad .goalkeepers .card1 .number img, .dad .goalkeepers .card2 .number img, .dad .goalkeepers .card3 .number img, .dad .defenders .card4 .number img, .dad .defenders .card5 .number img, .dad .defenders .card6 .number img, .dad .defenders .card7 .number img, .dad .defenders .card8 .number img, .dad .defenders .card9 .number img, .dad .defenders .card10 .number img, .dad .defenders .card11 .number img, .dad .midfielders .card12 .number img, .dad .midfielders .card13 .number img, .dad .midfielders .card14 .number img, .dad .midfielders .card15 .number img, .dad .midfielders .card16 .number img, .dad .midfielders .card17 .number img, .dad .midfielders .card18 .number img, .dad .midfielders .card19 .number img, .dad .midfielders .card20 .number img, .dad .attackers .card21 .number img, .dad .attackers .card22 .number img, .dad .attackers .card23 .number img, .dad .attackers .card24 .number img, .dad .attackers .card25 .number img, .dad .attackers .card26 .number img, .dad .attackers .card27 .number img, .dad .attackers .card28 .number img {
+  width: 3.2em;
+  margin-top: 1.6em;
+}
+
+.dad .goalkeepers .card1 .number .num, .dad .goalkeepers .card2 .number .num, .dad .goalkeepers .card3 .number .num, .dad .defenders .card4 .number .num, .dad .defenders .card5 .number .num, .dad .defenders .card6 .number .num, .dad .defenders .card7 .number .num, .dad .defenders .card8 .number .num, .dad .defenders .card9 .number .num, .dad .defenders .card10 .number .num, .dad .defenders .card11 .number .num, .dad .midfielders .card12 .number .num, .dad .midfielders .card13 .number .num, .dad .midfielders .card14 .number .num, .dad .midfielders .card15 .number .num, .dad .midfielders .card16 .number .num, .dad .midfielders .card17 .number .num, .dad .midfielders .card18 .number .num, .dad .midfielders .card19 .number .num, .dad .midfielders .card20 .number .num, .dad .attackers .card21 .number .num, .dad .attackers .card22 .number .num, .dad .attackers .card23 .number .num, .dad .attackers .card24 .number .num, .dad .attackers .card25 .number .num, .dad .attackers .card26 .number .num, .dad .attackers .card27 .number .num, .dad .attackers .card28 .number .num {
+  width: 5.5em;
+  height: 4.5em;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 1.2em;
+  margin-left: -0.5em;
+}
+
+.dad .goalkeepers .card1 .number .num h1, .dad .goalkeepers .card2 .number .num h1, .dad .goalkeepers .card3 .number .num h1, .dad .defenders .card4 .number .num h1, .dad .defenders .card5 .number .num h1, .dad .defenders .card6 .number .num h1, .dad .defenders .card7 .number .num h1, .dad .defenders .card8 .number .num h1, .dad .defenders .card9 .number .num h1, .dad .defenders .card10 .number .num h1, .dad .defenders .card11 .number .num h1, .dad .midfielders .card12 .number .num h1, .dad .midfielders .card13 .number .num h1, .dad .midfielders .card14 .number .num h1, .dad .midfielders .card15 .number .num h1, .dad .midfielders .card16 .number .num h1, .dad .midfielders .card17 .number .num h1, .dad .midfielders .card18 .number .num h1, .dad .midfielders .card19 .number .num h1, .dad .midfielders .card20 .number .num h1, .dad .attackers .card21 .number .num h1, .dad .attackers .card22 .number .num h1, .dad .attackers .card23 .number .num h1, .dad .attackers .card24 .number .num h1, .dad .attackers .card25 .number .num h1, .dad .attackers .card26 .number .num h1, .dad .attackers .card27 .number .num h1, .dad .attackers .card28 .number .num h1 {
+  font-size: 4rem;
+  color: #eeeeee;
+}
+
+.dad .goalkeepers .card1 .info, .dad .goalkeepers .card2 .info, .dad .goalkeepers .card3 .info, .dad .defenders .card4 .info, .dad .defenders .card5 .info, .dad .defenders .card6 .info, .dad .defenders .card7 .info, .dad .defenders .card8 .info, .dad .defenders .card9 .info, .dad .defenders .card10 .info, .dad .defenders .card11 .info, .dad .midfielders .card12 .info, .dad .midfielders .card13 .info, .dad .midfielders .card14 .info, .dad .midfielders .card15 .info, .dad .midfielders .card16 .info, .dad .midfielders .card17 .info, .dad .midfielders .card18 .info, .dad .midfielders .card19 .info, .dad .midfielders .card20 .info, .dad .attackers .card21 .info, .dad .attackers .card22 .info, .dad .attackers .card23 .info, .dad .attackers .card24 .info, .dad .attackers .card25 .info, .dad .attackers .card26 .info, .dad .attackers .card27 .info, .dad .attackers .card28 .info {
+  background: #2c2c2c;
+  width: 100%;
+  height: 7em;
+  position: absolute;
+  bottom: 0;
+  z-index: 10;
+  text-align: center;
+  color: #eeeeee;
+  padding: 0.1em 0;
+}
+
+.dad .goalkeepers .card1 .info h2, .dad .goalkeepers .card2 .info h2, .dad .goalkeepers .card3 .info h2, .dad .defenders .card4 .info h2, .dad .defenders .card5 .info h2, .dad .defenders .card6 .info h2, .dad .defenders .card7 .info h2, .dad .defenders .card8 .info h2, .dad .defenders .card9 .info h2, .dad .defenders .card10 .info h2, .dad .defenders .card11 .info h2, .dad .midfielders .card12 .info h2, .dad .midfielders .card13 .info h2, .dad .midfielders .card14 .info h2, .dad .midfielders .card15 .info h2, .dad .midfielders .card16 .info h2, .dad .midfielders .card17 .info h2, .dad .midfielders .card18 .info h2, .dad .midfielders .card19 .info h2, .dad .midfielders .card20 .info h2, .dad .attackers .card21 .info h2, .dad .attackers .card22 .info h2, .dad .attackers .card23 .info h2, .dad .attackers .card24 .info h2, .dad .attackers .card25 .info h2, .dad .attackers .card26 .info h2, .dad .attackers .card27 .info h2, .dad .attackers .card28 .info h2 {
+  font-weight: 300;
+  font-size: 1.1rem;
+}
+
+.dad .goalkeepers .card1 .info h3, .dad .goalkeepers .card2 .info h3, .dad .goalkeepers .card3 .info h3, .dad .defenders .card4 .info h3, .dad .defenders .card5 .info h3, .dad .defenders .card6 .info h3, .dad .defenders .card7 .info h3, .dad .defenders .card8 .info h3, .dad .defenders .card9 .info h3, .dad .defenders .card10 .info h3, .dad .defenders .card11 .info h3, .dad .midfielders .card12 .info h3, .dad .midfielders .card13 .info h3, .dad .midfielders .card14 .info h3, .dad .midfielders .card15 .info h3, .dad .midfielders .card16 .info h3, .dad .midfielders .card17 .info h3, .dad .midfielders .card18 .info h3, .dad .midfielders .card19 .info h3, .dad .midfielders .card20 .info h3, .dad .attackers .card21 .info h3, .dad .attackers .card22 .info h3, .dad .attackers .card23 .info h3, .dad .attackers .card24 .info h3, .dad .attackers .card25 .info h3, .dad .attackers .card26 .info h3, .dad .attackers .card27 .info h3, .dad .attackers .card28 .info h3 {
+  font-weight: 500;
+  font-size: 1.3rem;
+}
+
+.dad .goalkeepers .card1 .info a button, .dad .goalkeepers .card2 .info a button, .dad .goalkeepers .card3 .info a button, .dad .defenders .card4 .info a button, .dad .defenders .card5 .info a button, .dad .defenders .card6 .info a button, .dad .defenders .card7 .info a button, .dad .defenders .card8 .info a button, .dad .defenders .card9 .info a button, .dad .defenders .card10 .info a button, .dad .defenders .card11 .info a button, .dad .midfielders .card12 .info a button, .dad .midfielders .card13 .info a button, .dad .midfielders .card14 .info a button, .dad .midfielders .card15 .info a button, .dad .midfielders .card16 .info a button, .dad .midfielders .card17 .info a button, .dad .midfielders .card18 .info a button, .dad .midfielders .card19 .info a button, .dad .midfielders .card20 .info a button, .dad .attackers .card21 .info a button, .dad .attackers .card22 .info a button, .dad .attackers .card23 .info a button, .dad .attackers .card24 .info a button, .dad .attackers .card25 .info a button, .dad .attackers .card26 .info a button, .dad .attackers .card27 .info a button, .dad .attackers .card28 .info a button {
+  background: rgba(128, 128, 128, 0.363);
+  border: none;
+  font-size: 1.4rem;
+  padding: 0.1em 1.5em;
+  margin-top: 0.2em;
+  cursor: pointer;
+  -webkit-transition: 0.2s ease;
+  transition: 0.2s ease;
+  color: #eeeeee;
+}
+
+.dad .goalkeepers .card1 .info a button:hover, .dad .goalkeepers .card2 .info a button:hover, .dad .goalkeepers .card3 .info a button:hover, .dad .defenders .card4 .info a button:hover, .dad .defenders .card5 .info a button:hover, .dad .defenders .card6 .info a button:hover, .dad .defenders .card7 .info a button:hover, .dad .defenders .card8 .info a button:hover, .dad .defenders .card9 .info a button:hover, .dad .defenders .card10 .info a button:hover, .dad .defenders .card11 .info a button:hover, .dad .midfielders .card12 .info a button:hover, .dad .midfielders .card13 .info a button:hover, .dad .midfielders .card14 .info a button:hover, .dad .midfielders .card15 .info a button:hover, .dad .midfielders .card16 .info a button:hover, .dad .midfielders .card17 .info a button:hover, .dad .midfielders .card18 .info a button:hover, .dad .midfielders .card19 .info a button:hover, .dad .midfielders .card20 .info a button:hover, .dad .attackers .card21 .info a button:hover, .dad .attackers .card22 .info a button:hover, .dad .attackers .card23 .info a button:hover, .dad .attackers .card24 .info a button:hover, .dad .attackers .card25 .info a button:hover, .dad .attackers .card26 .info a button:hover, .dad .attackers .card27 .info a button:hover, .dad .attackers .card28 .info a button:hover {
+  background: #5a5a5a;
 }
 /*# sourceMappingURL=style.css.map */
