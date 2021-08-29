@@ -1346,10 +1346,6 @@ nav input[type="checkbox"] {
   cursor: pointer;
 }
 
-.container .review .button-container .btn:hover {
-  background: #474747;
-}
-
 @media (max-width: 768px) {
   .gamesDiv {
     -webkit-box-orient: vertical;
