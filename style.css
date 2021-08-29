@@ -382,6 +382,162 @@ nav input[type="checkbox"] {
   margin-bottom: .5em;
 }
 
+.cont-section {
+  background: #303030;
+  width: 100%;
+  margin-top: 3em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 45em;
+}
+
+.cont-section .contact-box {
+  background: #dbdbdb;
+  -webkit-box-shadow: rgba(139, 139, 139, 0.3) 0px 1px 2px 0px, rgba(165, 165, 165, 0.15) 0px 2px 6px 2px;
+          box-shadow: rgba(139, 139, 139, 0.3) 0px 1px 2px 0px, rgba(165, 165, 165, 0.15) 0px 2px 6px 2px;
+  color: #000;
+  width: 40em;
+  height: 95%;
+  border-radius: 0.5em;
+  margin-top: 1em;
+}
+
+.cont-section .contact-box .topSide {
+  height: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.cont-section .contact-box .topSide .topBox {
+  width: 40%;
+  height: 4.7em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 3em;
+}
+
+.cont-section .contact-box .topSide .topBox input {
+  width: 100%;
+  height: 4em;
+  border-radius: .3em;
+  border: none;
+  padding: 0 0.5em;
+  font-size: 1.2rem;
+  outline: none;
+  -webkit-box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+          box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.cont-section .contact-box .topSide .topBox p {
+  margin-left: .1em;
+}
+
+.cont-section .contact-box .topSide .topBox p span {
+  color: red;
+}
+
+.cont-section .contact-box .bottomSide {
+  height: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.cont-section .contact-box .bottomSide .bottomBox {
+  width: 85%;
+  height: 15%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.cont-section .contact-box .bottomSide .bottomBox input {
+  width: 100%;
+  height: 4.3em;
+  border-radius: .3em;
+  border: none;
+  padding: 0 0.5em;
+  font-size: 1.2rem;
+  outline: none;
+  -webkit-box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+          box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.cont-section .contact-box .bottomSide .bottomBox p {
+  margin-left: .1em;
+}
+
+.cont-section .contact-box .bottomSide .bottomBox p span {
+  color: red;
+}
+
+.cont-section .contact-box .bottomSide button {
+  width: 85%;
+  height: 12%;
+  border: none;
+  background: #751a1a;
+  border-radius: 1em;
+  color: #f2f2f2;
+  font-size: 1.4rem;
+  cursor: pointer;
+  font-weight: 300;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+  -webkit-box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+          box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.cont-section .contact-box .bottomSide button:hover {
+  background: #5c1414;
+}
+
+.cont-section .contact-box .bottomSide #details {
+  height: 6em;
+}
+
+.cont-section .contact-box .bottomSide #details #details-inpt {
+  height: 5.5em;
+}
+
 .newsDiv {
   background: #000;
   width: 100%;
@@ -977,10 +1133,16 @@ nav input[type="checkbox"] {
 }
 
 .footer .fut3 .bottom .fab {
-  background: #3d1010;
   padding: 0.3em;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   margin: 1em 0.2em;
+  -webkit-transition: 0.2s ease;
+  transition: 0.2s ease;
+  cursor: pointer;
+}
+
+.footer .fut3 .bottom .fab:hover {
+  color: brown;
 }
 
 .dad {
